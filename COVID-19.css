@@ -1,0 +1,75 @@
+html,body {
+  height: 100%;
+}
+  .container-fluid{
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.background-image {
+  filter: blur(0.5px);
+}
+.vertical-container{
+  z-index: 9999;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  align-items: center;
+  justify-content: center;
+  margin: 35px;
+}
+.vertical-container h1{
+  color: white;
+  margin-top: 25px;
+}
+.vertical-container button{
+  margin: 15px;
+  background-color: rgb(177, 87, 177);
+  color: white !important;
+  border-color: rgb(177, 87, 177);
+  outline: none !important;
+}
+.vertical-container button:hover{
+  color: white !important;
+}
+.vertical-container button:active:focus {
+  background-color: rgb(177, 87, 177);
+  color: white !important;
+}
+
+#search{
+  background: transparent;
+  color: white;
+  margin-top: 15px;
+  padding: 20px;
+}
+.slide-down
+{
+    bottom: -475px !important;
+}
+.blur{
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+#back{
+  display: none;
+}
+#table{
+  display: none;
+  color: white;
+}
+.table-container{
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow-y: scroll;
+  max-height: 400px;
+}
